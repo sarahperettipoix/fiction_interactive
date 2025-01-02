@@ -1,0 +1,100 @@
+:: StoryTitle
+grandpa's memories
+
+
+:: StoryData
+{
+  "ifid": "CFAE4C21-5307-44AA-979A-34939084E0D0",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Untitled Passage",
+  "zoom": 1
+}
+
+
+:: 2 {"position":"600,425","size":"100,100"}
+I'm not sad. I'm relieved...
+(align:"==>")+(box:"=X")[[->->3]]
+
+
+:: 3 {"position":"600,550","size":"100,100"}
+He had been suffering for so long.
+(align:"==>")+(box:"=X")[[->->4]]
+
+
+:: 4 {"position":"600,675","size":"100,100"}
+I saw him one last time at the hospital before he passed. 
+He didn't speak, his eyes were glassy, his curled up body, skeletal.
+(align:"==>")+(box:"=X")[[->->5]]
+
+
+:: 5 {"position":"600,800","size":"100,100"}
+I talked to him, held his fragile fingers in mine. Some part of me still hoped I could reach him...
+(align:"==>")+(box:"=X")[[->->6]]
+
+
+:: 6 {"position":"600,925","size":"100,100"}
+He was already gone...
+The sickness had taken him
+(align:"==>")+(box:"=X")[[->->7]]
+
+
+:: 7 {"position":"600,1050","size":"100,100"}
+All that is left now is his room.
+(align:"==>")+(box:"=X")[[->->8]]
+
+
+:: 8 {"position":"600,1175","size":"100,100"}
+I told mum that I would get a start on the cleaning, while she sorted certain affairs with Nonna. 
+I enter the dimely lit room, cardboard boxes folded under my arm.
+(align:"==>")+(box:"=X")[[->->9]]
+
+
+:: 9 {"position":"600,1300","size":"100,100"}
+The room is small and stuffy. In the middle lies the bed, unused in months. On theleft handside of the room, there is a bookshelf filled to the brim with documents and dusty books. On the opposite side of the room, a dingy closet stands beside a worn-down desk.
+Where to start?
+[[With the desk->desk]]
+[[open the closet->closet]]
+[[tackle the bookshelf->bookshelf]]
+[[see to the bed->bed]]
+
+
+:: Untitled Passage {"position":"600,300","size":"100,100"}
+Nonno died. He passed away a few months ago.
+(align:"==>")+(box:"=X")[[->->2]]
+
+
+:: You throw them away-> {"position":"600,1800","size":"100,100"}
+
+
+
+:: bed {"position":"725,1425","size":"100,100"}
+
+
+
+:: books {"position":"475,1550","size":"100,100"}
+
+
+
+:: bookshelf {"position":"600,1425","size":"100,100"}
+I turn to the bookshelf and prepare one of my cardboard boxes. There are many things crowding the space (if:visits is 1)[[old documents->docs]], [[books->books]] and [[forgotten meds->meds]]
+
+
+:: closet {"position":"600,1550","size":"100,100"}
+
+
+
+:: desk {"position":"475,1425","size":"100,100"}
+
+
+
+:: docs {"position":"725,1550","size":"100,100"}
+The documents are old, illegible and useless. You throw them in the box.
+[[continue->bookshelf]]
+
+
+:: meds {"position":"600,1675","size":"100,100"}
+An unpleasant memory resurfaces.
+You remember how he would alawys forget them and claim they were stolen, how he would lash out at anyone who would ask him about his meds, how he would lie about taking them..
+
+[[You throw them away->]]
